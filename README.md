@@ -45,25 +45,25 @@ CSV — final data export format used for the Tableau workbook
 
 ## Project Structure
 - magist-eniac-tableau-analysis/
-- ├── README.md
-- ├── data/
-- │   ├── orders.csv
-- │   ├── customers.csv
-- │   ├── order_items.csv
-- │   ├── order_payments.csv
-- │   ├── order_reviews.csv
-- │   ├── geo.csv
-- │   ├── products.csv
-- │   ├── sellers.csv
-- │   └── product_categories.csv
-├── tableau/
-│   └── magist_eniac_analysis.twbx
-└── screenshots/
-    ├── product_fit.png
-    ├── seller_performance.png
-    ├── delivery_performance.png
-    ├── geographic_expansion.png
-    └── delivery_risk.png
+ - ├── README.md
+ - ├── data/
+   -   │   ├── orders.csv
+   -   │   ├── customers.csv
+   -   │   ├── order_items.csv
+   -   │   ├── order_payments.csv
+   -   │   ├── order_reviews.csv
+   -   │   ├── geo.csv
+   -   │   ├── products.csv
+   -   │   ├── sellers.csv
+   -   │   └── product_categories.csv
+ - ├── tableau/
+   -   │   └── magist_eniac_analysis.twbx
+ - └── screenshots/
+   -   ├── product_fit.png
+   -   ├── seller_performance.png
+   -   ├── delivery_performance.png
+   -   ├── geographic_expansion.png
+   -   └── delivery_risk.png
 
 ## How to Use This Project
 - Download this repository.
@@ -75,6 +75,3 @@ CSV — final data export format used for the Tableau workbook
 - Extend the delivery-buffer analysis by state to check whether estimate padding varies by region, not just by product type.
 - Model an updated estimated-delivery formula based on actual historical delivery times, to give Magist a concrete target for the recommended algorithm change.
 - Add a payment-method breakdown (installments, credit card, boleto) to see if it correlates with tech vs. non-tech purchasing behavior.
-
-## Interactive Version
-[View on Tableau Public](#) — add link after Step 7 below
