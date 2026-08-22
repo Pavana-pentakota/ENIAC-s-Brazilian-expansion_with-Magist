@@ -2,6 +2,7 @@
 Business analysis for Eniac's Brazil expansion via Magist — Tableau dashboards on product fit, seller performance, and delivery
 
 # Magist × Eniac — Data Analysis Project
+**Full project documentation:** [View on Confluence] https://pentakotapavanakumari.atlassian.net/wiki/spaces/MBC1/overview?homepageId=4292803
 
 ## Business Context
 - Eniac wants to expand into Brazil and is considering partnering with Magist, a local fulfillment platform, to test the market. Two concerns drove this analysis:
